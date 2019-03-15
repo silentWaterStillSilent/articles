@@ -4,6 +4,12 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*",
+        "laravelcollective/html": "^5.1.0",
+        "doctrine/dbal": "^2.5"
+    },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
@@ -41,9 +47,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "require": {
-        "laravelcollective/html": "^5.1.0",
-        "doctrine/dbal": "^2.5"
     }
 }
